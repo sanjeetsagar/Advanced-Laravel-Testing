@@ -145,7 +145,7 @@ In addition to `assertJson`, Laravel provides several other methods for making J
 It's also worth noting that there are more powerful 3rd party packages like `Dingo/Api` that provides more functionality that can aid in testing your API.
 
 
-# AssertDatabaseHas or Eloquent AssertModelExists? write in markdown format
+# AssertDatabaseHas or Eloquent AssertModelExists?
 
 AssertDatabaseHas and Eloquent AssertModelExists are both methods used in testing to check if a specific record exists in the database.
 
@@ -176,7 +176,7 @@ $this->assertModelExists($user);
 In summary, both methods are used to check if a specific record exists in the database, but `AssertDatabaseHas` allows you to check if a specific record exists based on conditions, while `Eloquent AssertModelExists` allows you to check if a specific model instance exists in the database.
 
 
-# How to Assert File Downloads? write in markdown format
+# How to Assert File Downloads?
 
 There are a few different ways to assert that a file download is working correctly in a test, depending on the framework and testing library you are using. Here is an example of how to do this using the `PHPUnit` testing framework and the `Symfony` HttpClient:
 
@@ -223,7 +223,7 @@ public function testDownloadFile()
 
 In summary, the way to assert file downloads will vary depending on the framework and testing library you are using. But you can use similar methods as shown above to assert if a file is downloaded correctly.
 
-# All Assertions List and What If You Don't Find The Right Assertion? write in markdown format
+# All Assertions List and What If You Don't Find The Right Assertion?
 
 There are many different types of assertions that you can use when writing tests, depending on the testing framework and library you are using. Here are some common assertions that are available in most testing frameworks:
 
@@ -263,7 +263,7 @@ In summary, there are many built-in assertions available in most testing framewo
 
 
 
-# Pick Assertions with Right Error Messages write in markdown format
+# Pick Assertions with Right Error Messages
 
 When writing tests, it's important to choose the right assertion method and provide meaningful error messages in case the test fails. Here are some examples of how to choose the right assertion method and provide helpful error messages:
 
